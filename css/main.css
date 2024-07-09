@@ -1,0 +1,131 @@
+
+/* global */
+
+
+:root {
+  --main-color: rgba(214, 46, 51, 0.6);
+  --primary-color: #d62e33;
+  --light-color: #fff;
+  --font-color: #777;
+  --dark-color: #111;
+}
+
+
+
+/* home */
+.home {
+  background-image: url(./download.jfif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.layer {
+  background-color: var(--main-color);
+}
+
+
+/* navbar */
+nav {
+  width: 180px;
+  height: 100%;
+  background-color: var(--dark-color);
+  left: -180px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 9999;
+}
+
+nav ul li {
+  padding: 10px;
+  transition: color 400ms;
+}
+nav ul li:hover {
+  color: var(--main-color);
+}
+
+.menu-icon {
+  position: fixed;
+  z-index: 999;
+  top: 50%;
+  left: 200px;
+  cursor: pointer;
+}
+
+
+/* singers section */
+.singers .singer {
+  width: 60%;
+  margin: auto;
+}
+
+.singers .singer p {
+  display: none;
+  padding: 5px;
+  margin: 0;
+}
+.singers .singer h3 {
+  background-color: var(--main-color);
+  color: var(--light-color);
+  margin: 0;
+  padding: 10px;
+  cursor: pointer;
+}
+.singers .singer {
+  color: var(--font-color);
+  background-color: #ccc;
+}
+
+
+/* countDown section */
+.count {
+  background-image: linear-gradient(rgba(214, 46, 51, 0.6), rgb(214, 46, 51)),
+    url("https://alfaroukroute.github.io/egyptianParty/images/invitation-2508607__340.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.time {
+  border: 1px solid var(--light-color);
+  color: var(--light-color);
+  width: 20%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* form section */
+
+.icons i {
+  cursor: pointer;
+}
+.icons i:hover {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  border: none !important;
+}
+
+form button {
+  width: 150px;
+}
+
+textarea{
+  height:150px;
+}
+.num {
+  color: var(--primary-color);
+}
+
+
