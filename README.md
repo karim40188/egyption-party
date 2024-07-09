@@ -1,6 +1,6 @@
 Egyptian Party Project
 
-This project showcases an Egyptian party theme with interactive features using HTML, CSS, JavaScript, and jQuery.
+This project showcases an Egyptian party theme with interactive features using HTML, CSS, JavaScript, and jQuery, and bootstrap.
 
 Features:
 - Side Bar: Navigate easily with a side bar menu.
